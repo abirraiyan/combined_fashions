@@ -49,17 +49,23 @@ export default function Leadership() {
 
         {/* ===== THREE LEADERS BELOW ===== */}
         <div className="grid md:grid-cols-3 gap-8">
-          {otherLeaders.map((member) => (
+          {otherLeaders.map((member, index) => (
             <div
               key={member.id}
               className="bg-white rounded-xl shadow-lg p-8 text-center flex flex-col items-center"
             >
               <div className="h-36 flex items-center justify-center mb-4">
                 <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-32 h-32 rounded-full object-cover object-[center_20%] ring-4 ring-green-500"
-                />
+  src={member.image}
+  alt={member.name}
+  className={`w-32 h-32 rounded-full object-cover ring-4 ${
+    index === 0
+      ? "ring-gold"
+      : index === 1
+      ? "ring-gold-light"
+      : "ring-gold-muted"
+  }`}
+/>
               </div>
 
               <h3 className="text-xl font-semibold">
