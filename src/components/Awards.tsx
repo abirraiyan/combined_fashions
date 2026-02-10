@@ -92,7 +92,7 @@ const Awards = () => {
                   <p className="text-cream/60 text-sm font-sans">Certified Member</p>
                 </div>
                 <div className="bg-charcoal-light px-6 py-4 rounded-sm">
-                  <p className="text-gold font-serif text-2xl">553662043</p>
+                  <p className="text-gold font-serif text-2xl">85-036-7016</p>
                   <p className="text-cream/60 text-sm font-sans">DUNS Number</p>
                 </div>
               </div>
