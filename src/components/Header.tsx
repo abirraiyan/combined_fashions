@@ -75,7 +75,7 @@ const Header = () => {
 
               <div className="hidden sm:block">
                 <h1 className="font-serif text-cream text-lg leading-tight">Combined</h1>
-                <p className="text-gold text-xs tracking-[0.2em] uppercase">Fashions</p>
+                <p className="text-green-600 text-xs tracking-[0.2em] uppercase">Fashions</p>
               </div>
             </a>
 
