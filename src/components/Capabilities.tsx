@@ -84,7 +84,7 @@ const capabilities: any[] = [
       "Suitable for shirts, jackets & tailored garments",
       "Wrinkle-free and shape-retaining finish",
       "Strict quality control for consistent results",
-      "Capacity: 500,000+ pieces monthly",
+      "Capacity: 500,000+ Yard monthly",
     ],
   },
   {
